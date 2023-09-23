@@ -1,0 +1,79 @@
+:root{
+    --color-1:#03081e;
+    --color-2:#00026c;
+    --color-3:#160642;
+    --color-4:#300556;
+    --color-5:#ffffff9d;
+}
+body {
+    overflow-x: hidden;
+    padding-top: 15vh;
+}
+
+#background-video {
+    
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+
+
+filter:brightness(33%) contrast(100%);
+-webkit-filter:  brightness(33%) contrast(100%);
+-moz-filter:  brightness(33%) contrast(100%);
+
+  }
+.navbar{
+    
+    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%);
+    
+
+}
+.hamburger{
+    color: white;
+}
+
+.dropdown-item{
+    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%);
+
+
+}
+.first-item{
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+
+}
+.last-item{
+border-bottom-left-radius:5px ;
+border-bottom-right-radius:5px ;
+
+}
+.headlines{
+    
+background-color: #050e3688;
+
+}
+.row{
+    margin-bottom: 1rem;
+}
+.h5{
+    margin: 1rem;
+}
+.ratio-16x9{
+    aspect-ratio: 16/9;
+}
+.btn-primary{
+    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%);
+    border-color: white;
+
+}
+.card{
+    background-color:#00026c6b;
+}
+.bosluk{
+    top: 100px;
+    padding-top: 10vh;
+
+}
+
