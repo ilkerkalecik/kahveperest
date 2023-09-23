@@ -1,2 +1,2 @@
 # sampiyonlar-ligi
-!(https://ibb.co/HpGbspX)
+!(https://i.ibb.co/bRNCZR7/Ekran-G-r-nt-s-85.png)
