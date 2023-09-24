@@ -1,1 +1,1 @@
-<img src="images/screenshot.png" alt="" class="  align-items-center justify-content-center" style="height:80px">
+<img src="images/screenshot.png" alt="" class="  align-items-center justify-content-center" style="width:100%">
