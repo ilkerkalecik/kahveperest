@@ -1,1 +1,1 @@
-
+<img src="images/logos/Galatasaray_Star_Logo.png" alt="" class="  align-items-center justify-content-center" style="height:80px">

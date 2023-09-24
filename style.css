@@ -84,3 +84,46 @@ background-color: #050e3688;
       
 }
 
+#teams>.row>div:not:first-child{
+    
+    border-width: 1px;
+    border-style: solid;
+    background: #00026c58;
+    margin-bottom: 1rem;
+    border-color:rgba(255, 255, 255, 0.933) ;
+
+}
+#teams>.row>.col-12>.display-1{
+    font-size: calc(1.625rem + 4.5vw);
+}
+
+
+#teams>.row>div{
+    margin-bottom: 1rem;
+}
+#teams>.row>div>h1{
+    font-size: calc(1rem + 1.5vw);
+
+}
+#teams>.row>div>img{
+    margin: 0;
+}
+center{
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    #teams>.row>div>h1  {
+        margin: 0;
+        font-weight:300;
+        font-size: 12px;
+  }
+  #teams>.row>div>p{
+    margin: 0 auto;
+    font-size: 8px;
+    font-weight: lighter;
+  }
+
+}
