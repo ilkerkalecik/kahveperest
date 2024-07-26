@@ -1,129 +1,135 @@
-:root{
-    --color-1:#03081e;
-    --color-2:#00026c;
-    --color-3:#160642;
-    --color-4:#300556;
-    --color-5:#ffffff9d;
+:root {
+  --color-1: #03081e;
+  --color-2: #00026c;
+  --color-3: #160642;
+  --color-4: #300556;
+  --color-5: #ffffff9d;
 }
 body {
-    overflow-x: hidden;
-    padding-top: 13vh;
+  overflow-x: hidden;
+  padding-top: 13vh;
+}
+.logonav {
+  border-radius: 100%;
+}
+.navbar {
+  background: rgb(14, 58, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 58, 10, 1) 31%,
+    rgba(29, 105, 22, 1) 100%
+  );
+}
+.hamburger {
+  color: white;
 }
 
-#background-image {
-    
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    z-index: -1;
-
-
-filter:brightness(50%) contrast(100%);
--webkit-filter:  brightness(50%) contrast(100%);
--moz-filter:  brightness(50%) contrast(100%);
-
-  }
-.navbar{
-    
-    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%);
-    
-
+.dropdown-item {
+  background: linear-gradient(
+    90deg,
+    var(--color-1) 0%,
+    var(--color-2) 33%,
+    var(--color-3) 66%,
+    var(--color-4) 100%
+  );
 }
-.hamburger{
-    color: white;
+.first-item {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
-
-.dropdown-item{
-    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%);
-
-
+.last-item {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.first-item{
-    border-top-right-radius: 5px ;
-    border-top-left-radius: 5px ;
-
+.headlines {
+  background-color: #050e3688;
 }
-.last-item{
-border-bottom-left-radius:5px ;
-border-bottom-right-radius:5px ;
-
+.row {
+  margin-bottom: 1rem;
 }
-.headlines{
-    
-background-color: #050e3688;
-
+.h5 {
+  margin: 1rem;
 }
-.row{
-    margin-bottom: 1rem;
+.ratio-16x9 {
+  aspect-ratio: 16/9;
 }
-.h5{
-    margin: 1rem;
+.btn-primary {
+  background: linear-gradient(
+    90deg,
+    var(--color-1) 0%,
+    var(--color-2) 33%,
+    var(--color-3) 66%,
+    var(--color-4) 100%
+  );
+  border-color: white;
 }
-.ratio-16x9{
-    aspect-ratio: 16/9;
+.card {
+  background-color: #00026c6b;
 }
-.btn-primary{
-    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%);
-    border-color: white;
-
+.bosluk {
+  
+  margin-top: 43px;
 }
-.card{
-    background-color:#00026c6b;
-}
-.bosluk{
-    top: 100px;
-    padding-top: 10vh;
-
-}
-.border1{
-     
-        border-width: 10px;
-        border-style: solid;
-        border-image: linear-gradient(90deg, #010949 0%, var(--color-2) 33%,var(--color-3) 66%,var(--color-4) 100%) 1;
-      
+.border1 {
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(
+      90deg,
+      #010949 0%,
+      var(--color-2) 33%,
+      var(--color-3) 66%,
+      var(--color-4) 100%
+    )
+    1;
 }
 
-#teams>.row>div:not:first-child{
-    
-    border-width: 1px;
-    border-style: solid;
-    background: #00026c58;
-    margin-bottom: 1rem;
-    border-color:rgba(255, 255, 255, 0.933) ;
-
+#teams > .row > div:not:first-child {
+  border-width: 1px;
+  border-style: solid;
+  background: #00026c58;
+  margin-bottom: 1rem;
+  border-color: rgba(255, 255, 255, 0.933);
 }
-#teams>.row>.col-12>.display-1{
-    font-size: calc(1.625rem + 4.5vw);
+#teams > .row > .col-12 > .display-1 {
+  font-size: calc(1.625rem + 4.5vw);
 }
 
-
-#teams>.row>div{
-    margin-bottom: 1rem;
+#teams > .row > div {
+  margin-bottom: 1rem;
 }
-#teams>.row>div>h1{
-    font-size: calc(1rem + 1.5vw);
-
+#teams > .row > div > h1 {
+  font-size: calc(1rem + 1.5vw);
 }
-#teams>.row>div>img{
-    margin: 0;
+#teams > .row > div > img {
+  margin: 0;
 }
-center{
-    margin: 0;
+center {
+  margin: 0;
 }
-
 
 @media only screen and (max-width: 800px) {
-
-    #teams>.row>div>h1  {
-        margin: 0;
-        font-weight:300;
-        font-size: 12px;
+  #teams > .row > div > h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
   }
-  #teams>.row>div>p{
+  #teams > .row > div > p {
     margin: 0 auto;
     font-size: 8px;
     font-weight: lighter;
   }
-
+}
+:root {
+  --color-1: #0e3a0a;
+  --color-2: #ffffff;
+  --color-3: #360a3a;
+  --color-4: #0a3a1e;
+  --color-5: #0a0e3a;
+  --color-6: #3a0a0e;
+  --color-7: #3a1e0a;
+  --color-8: #dddedd;
+  --color-9: #000000d7;
+}
+body {
+  background-color: var(--color-8);
 }
