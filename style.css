@@ -7,7 +7,7 @@
 }
 body {
   overflow-x: hidden;
-  padding-top: 13vh;
+  padding-top: 15vh;
 }
 .logonav {
   border-radius: 100%;
@@ -19,9 +19,6 @@ body {
     rgba(14, 58, 10, 1) 31%,
     rgba(29, 105, 22, 1) 100%
   );
-}
-.hamburger {
-  color: white;
 }
 
 .dropdown-item {
@@ -67,7 +64,6 @@ body {
   background-color: #00026c6b;
 }
 .bosluk {
-  
   margin-top: 43px;
 }
 .border1 {
@@ -131,5 +127,5 @@ center {
   --color-9: #000000d7;
 }
 body {
-  background-color: var(--color-8);
+  background-color: #f2ffee;
 }
