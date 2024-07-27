@@ -38,9 +38,7 @@ body {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.headlines {
-  background-color: #050e3688;
-}
+
 .row {
   margin-bottom: 1rem;
 }
@@ -66,23 +64,12 @@ body {
 .bosluk {
   margin-top: 43px;
 }
-.border1 {
-  border-width: 10px;
-  border-style: solid;
-  border-image: linear-gradient(
-      90deg,
-      #010949 0%,
-      var(--color-2) 33%,
-      var(--color-3) 66%,
-      var(--color-4) 100%
-    )
-    1;
-}
+
 
 #teams > .row > div:not:first-child {
   border-width: 1px;
   border-style: solid;
-  background: #00026c58;
+  background: #ffffff58;
   margin-bottom: 1rem;
   border-color: rgba(255, 255, 255, 0.933);
 }
