@@ -50,13 +50,9 @@ body {
   aspect-ratio: 16/9;
 }
 
-
 .bosluk {
   margin-top: 43px;
 }
-
-
-
 
 :root {
   --color-1: #0e3a0a;
@@ -73,7 +69,6 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
 
 .roboto-mono {
   font-family: "Roboto Mono", monospace;
@@ -104,21 +99,20 @@ body {
   font-weight: 700;
   font-style: italic;
 }
-.populer{
+.populer {
   width: 95vw;
   height: 160px;
   background-color: #eaeaea;
   border: 10px black;
-  
 }
 .product-card {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 .product-card:hover {
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .product-card img {
   border-top-left-radius: 10px;
@@ -145,7 +139,6 @@ body {
   display: none;
 }
 .product-card .btn {
-  
   justify-content: center;
   margin-top: 15px;
   font-size: 1.25rem;
@@ -153,13 +146,14 @@ body {
   background-color: #0e3a0a;
   border-color: #0e3a0a;
 }
-.product-card .btn:hover{
+.product-card .btn:hover {
   background-color: #0e3a0a;
   border-color: #0e3a0a;
 }
-button:focus, .btn:focus {
+button:focus,
+.btn:focus {
   outline: black;
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
 .wittgenstein {
   font-family: "Wittgenstein", serif;
@@ -172,7 +166,6 @@ button:focus, .btn:focus {
   white-space: nowrap;
   background-color: #ffffff00;
   padding: 10px 0;
-
 }
 
 .categories-wrapper {
@@ -197,12 +190,7 @@ button:focus, .btn:focus {
 .category-item:hover {
   background-color: #004311;
 }
-.menu-section {
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
+
 .categories-wrapper::-webkit-scrollbar {
   display: none; /* Webkit tarayıcıları için kaydırma çubuğunu gizler */
 }
@@ -244,4 +232,7 @@ button:focus, .btn:focus {
   to {
     opacity: 1;
   }
+}
+a {
+  text-decoration: none;
 }
