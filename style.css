@@ -7,7 +7,7 @@
 }
 body {
   overflow-x: hidden;
-  padding-top: 15vh;
+  padding-top: 14vh;
   scroll-behavior: smooth;
 }
 .logonav {
@@ -125,15 +125,16 @@ body {
 .product-card .card-title {
   font-size: 1.25rem;
   margin-bottom: 0.2rem;
+  font-weight: 700;
 }
 .product-card .card-text {
   font-size: 1rem;
   color: #757575;
 }
-.product-card .fiyat {
-  font-size: 1.5rem;
-  color: #139405;
-  margin-bottom: 0.75rem;
+.product-card .price {
+  font-size: large;
+  color: #025f14;
+  font-weight: 100;
 }
 .product-card .details {
   display: none;
@@ -235,4 +236,18 @@ button:focus,
 }
 a {
   text-decoration: none;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container::before,
+.header-container::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #000000; 
+  margin: 0 10px; /* Çizgi ile başlık arasındaki boşluk */
 }

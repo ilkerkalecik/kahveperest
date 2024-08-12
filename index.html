@@ -1,261 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kahveperest</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!-- navbar start -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top shadow-lg mb-5">
-      <div class="container-fluid p-2 d-flex justify-content-center">
-        <a class="navbar-brand text-white display-1" href="#">
-          <img
-            class="logonav"
-            src="images/kahveperest yuvarlak logo-1.png"
-            width="90px"
-            alt=""
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kahveperest</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top shadow-lg mb-5">
+    <div class="container-fluid p-2 d-flex justify-content-center">
+     
+        <img class="logonav" src="images/kahveperest yuvarlak logo-1.png" width="80px" alt="" /></a>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+
+  <div class="conteiner align-items-center justify-content-center overflow-hidden bosluk">
+
+    <div class="row">
+      <div class="col-md-6 col-lg-12 align-items-center justify-content-center">
+        <div id="carouselExampleCaptions" class="carousel slide mb-4" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Frame 1.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Frame 4.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Frame 5.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-    </nav>
-    <!-- navbar end -->
+      <nav id="categories" class="categories px-2">
+        <div class="categories-wrapper wittgenstein">
 
-    <!-- headlines start -->
-    <div
-      class="conteiner align-items-center justify-content-center overflow-hidden bosluk"
-    >
-      <div class="row">
-        <div
-          class="col-md-6 col-lg-12 align-items-center justify-content-center"
-        >
-          <div
-            id="carouselExampleCaptions"
-            class="carousel slide mb-4"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
+          <a href="#turkkahveleri">
+            <div class="category-item">
+              Türk Kahveleri
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/Frame 1.png" class="d-block w-100" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
-                  <p></p>
+          </a>
+          <a href="#dunyakahveleri">
+            <div class="category-item">
+              Dünya Kahveleri
+            </div>
+          </a>
+          <a href="#sogukspecialler">
+            <div class="category-item">
+              Soğuk Specialler
+            </div>
+          </a>
+          <a href="#espresso">
+            <div class="category-item">
+              Espresso
+            </div>
+          </a>
+          <a href="#sicaksutluicecekler">
+            <div class="category-item">
+              Sıcak Sütlü İçecekler
+            </div>
+          </a>
+          <a href="#sogukkahveler">
+            <div class="category-item">
+              Soğuk Kahveler
+            </div>
+          </a>
+          <a href="#milkshake">
+            <div class="category-item">
+              Milkshake
+            </div>
+          </a>
+          <a href="#soguksutluicecekler">
+            <div class="category-item">
+              Soğuk Sütlü İçecekler
+            </div>
+          </a>
+          <a href="#smoothie">
+            <div class="category-item">
+              Smoothie
+            </div>
+          </a>
+          <a href="#frozen">
+            <div class="category-item">Frozen</div>
+          </a>
+
+          <a href="#cayvebitkicaylari">
+            <div class="category-item">
+              Çay ve Bitki Çayları
+            </div>
+          </a>
+          <a href="#sogukicecekler">
+            <div class="category-item">
+              Soğuk İçecekler
+            </div>
+          </a>
+          <a href="#tazesikmalar">
+            <div class="category-item">
+              Taze Sıkmalar
+            </div>
+          </a>
+          <a href="#tatlilar">
+            <div class="category-item">
+              Tatlılar
+            </div>
+          </a>
+          <a href="#kahvalti">
+            <div class="category-item">
+              Kahvaltılar
+            </div>
+          </a>
+          <a href="#menemenler">
+            <div class="category-item">
+              Menemenler
+            </div>
+          </a>
+          <a href="#yumurtaomletler">
+            <div class="category-item">
+              Yumurta Omletler
+            </div>
+          </a>
+          <a href="#gozlemeler">
+            <div class="category-item">
+              Gözlemeler
+            </div>
+          </a>
+          <a href="#borekler">
+            <div class="category-item">
+              Börekler
+            </div>
+          </a>
+          <a href="#tostcesitleri">
+            <div class="category-item">
+              Tost Çeşitleri
+            </div>
+          </a>
+          <a href="#burgerler">
+            <div class="category-item">
+              Burgerler
+            </div>
+          </a>
+          <a href="#marinelitavuklar">
+            <div class="category-item">
+              Marineli Tavuklar
+            </div>
+          </a>
+          <a href="#kofteler">
+            <div class="category-item">
+              Köfteler
+            </div>
+          </a>
+          <a href="#makarnaar">
+            <div class="category-item">
+              Makarnalar
+            </div>
+          </a>
+          <a href="#salatalar">
+            <div class="category-item">
+              Salatalar
+            </div>
+          </a>
+          <a href="#aperatifler">
+            <div class="category-item">
+              Aperatifler
+            </div>
+          </a>
+        </div>
+      </nav>
+
+      <!--populer-->
+      <h1 class="text-center wittgenstein mt-5 header-container">En Çok Tercih Edilenler</h1>
+      <div class="container mt-5">
+        <div class="row justify-content-center mt-1 wittgenstein">
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/Frame 4.png" class="d-block w-100" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
-                  <p></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/Frame 5.png" class="d-block w-100" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
-                  <p></p>
-                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mt-3">
+            <div class="card product-card">
+              <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+              <div class="card-body">
+                <h5 class="card-title">urun</h5>
+                <p class="price">₺49.99</p>
+                <div class="details">
+                  <p class="card-text">
+                    Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                    özellikleri ve diğer detayları hakkında bilgi
+                    verebilirsiniz.
+                  </p>
+                </div>
+                <button class="btn btn-primary show-details">
+                  Detayları Gör
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <nav id="categories" class="categories px-2">
-          <div class="categories-wrapper wittgenstein">
-            <a href="#kahvalti">
-              <div class="category-item" data-target="kahvalti">
-                Kahvaltı
-              </div></a
-            >
-            <a href="#turkkahveleri">
-              <div class="category-item" data-target="kahvalti">
-                Türk Kahveleri
-              </div></a
-            >
-            <a href="#sogukkahveler">
-              <div class="category-item" data-target="kahvalti">
-                Soğuk Kahveler
-              </div></a
-            >
-            <a href="#sogukicecekler">
-              <div class="category-item" data-target="kahvalti">
-                Soğuk İçecekler
-              </div></a
-            >
-            <a href="#tazesikmalar">
-              <div class="category-item" data-target="kahvalti">
-                Taze Sıkmalar
-              </div></a
-            >
-            <a href="#dunyakahveleri">
-              <div class="category-item" data-target="kahvalti">
-                Dünya Kahveleri
-              </div></a
-            >
-            <a href="#espresso">
-              <div class="category-item" data-target="kahvalti">
-                Espresso
-              </div></a
-            >
-            <a href="#sogukspecialler">
-              <div class="category-item" data-target="kahvalti">
-                Soğuk Specialler
-              </div></a
-            >
-            <a href="#sicaksutluicecekler">
-              <div class="category-item" data-target="kahvalti">
-                Sıcak Sütlü İçecekler
-              </div></a
-            >
-            <a href="#soguksutluicecekler">
-              <div class="category-item" data-target="kahvalti">
-                Soğuk Sütlü İçecekler
-              </div></a
-            >
-            <a href="#milkshake">
-              <div class="category-item" data-target="kahvalti">
-                Milkshake
-              </div></a
-            >
-            <a href="#smoothie">
-              <div class="category-item" data-target="kahvalti">
-                Smoothie
-              </div></a
-            >
-            <a href="#frozen">
-              <div class="category-item" data-target="kahvalti">Frozen</div></a
-            >
-            <a href="#cayvebitkicaylari">
-              <div class="category-item" data-target="kahvalti">
-                Çay ve Bitki Çayları
-              </div></a
-            >
-            <a href="#menemenler">
-              <div class="category-item" data-target="kahvalti">
-                Menemenler
-              </div></a
-            >
-            <a href="#yumurtaomletler">
-              <div class="category-item" data-target="kahvalti">
-                Yumurta Omletler
-              </div></a
-            >
-            <a href="#gozlemeler">
-              <div class="category-item" data-target="kahvalti">
-                Gözlemeler
-              </div></a
-            >
-            <a href="#borekler">
-              <div class="category-item" data-target="kahvalti">
-                Börekler
-              </div></a
-            >
-            <a href="#tostcesitleri">
-              <div class="category-item" data-target="kahvalti">
-                Tost Çeşitleri
-              </div></a
-            >
-            <a href="#burgerler">
-              <div class="category-item" data-target="kahvalti">
-                Burgerler
-              </div></a
-            >
-            <a href="#marinelitavuklar">
-              <div class="category-item" data-target="kahvalti">
-                Marineli Tavuklar
-              </div></a
-            >
-            <a href="#kofteler">
-              <div class="category-item" data-target="kahvalti">
-                Köfteler
-              </div></a
-            >
-            <a href="#makarnaar">
-              <div class="category-item" data-target="kahvalti">
-                Makarnalar
-              </div></a
-            >
-            <a href="#salatalar">
-              <div class="category-item" data-target="kahvalti">
-                Salatalar
-              </div></a
-            >
-            <a href="#aperatifler">
-              <div class="category-item" data-target="kahvalti">
-                Aperatifler
-              </div></a
-            >
-          </div>
-        </nav>
+      </div>
+      <!--populer-->
 
-        <!--populer-->
-        <h1 class="text-center wittgenstein mt-5">En Çok Tercih Edilenler</h1>
+
+
+
+
+
+
+
+      <!--turk kahveleri-->
+      <div  id="turkkahveleri" class="bosluk"></div>
+      <div class="bosluk"></div>
+      <div class="bosluk"></div>
+      <div class="bosluk"></div>
+
+
+      <div class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container ">Türk Kahveleri</h1>
         <div class="container mt-5">
           <div class="row justify-content-center mt-1 wittgenstein">
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/turk-kahvesi-100g-776-14-B.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Türk Kahvesi</h5>
+                  <p class="price">50.00TL</p>
+                  <div class="details">
+                    <p class="card-text">
+                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
+                      özellikleri ve diğer detayları hakkında bilgi
+                      verebilirsiniz.
+                    </p>
+                  </div>
+                  <button class="btn btn-primary show-details">
+                    Detayları Gör
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-12 mt-3">
+              <div class="card product-card">
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
+                <div class="card-body">
+                  <h5 class="card-title">Double Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -270,15 +536,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Damla Sakızlı Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -293,15 +555,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Dağ Çilekli Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -316,15 +574,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Sütlü Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -339,15 +593,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Menengiç Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -362,15 +612,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Dibek Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -385,177 +631,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-10 mt-3">
+            <div class="col-md-4 col-12 mt-3">
               <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
+                <img src="images/pizza.jpg" class="card-img-top" alt="Ürün Resmi" />
                 <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
+                  <h5 class="card-title">Special Türk Kahvesi</h5>
                   <p class="price">₺49.99</p>
                   <div class="details">
                     <p class="card-text">
@@ -572,368 +652,156 @@
             </div>
           </div>
         </div>
-   
+      </div>
+      <!--turk kahveleri-->
 
 
-        <div id="kahvalti" class="container mt-5">
-          <h1 class="text-center wittgenstein my-5">Kahvaltı</h1>
-          <div class="row justify-content-center mt-1 wittgenstein">
-           
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
+      <div id="dunyakahveleri" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Dünya Kahveleri</h1>
+        <!-- Dünya Kahveleri menüsü içeriği buraya gelecek -->
+      </div>
 
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-10 mt-3">
-              <div class="card product-card">
-                <img
-                  src="images/pizza.jpg"
-                  class="card-img-top"
-                  alt="Ürün Resmi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ürün Adı</h5>
-                  <p class="price">₺49.99</p>
-                  <div class="details">
-                    <p class="card-text">
-                      Bu, ürünle ilgili kısa bir açıklamadır. Ürünün lezzeti,
-                      özellikleri ve diğer detayları hakkında bilgi
-                      verebilirsiniz.
-                    </p>
-                  </div>
-                  <button class="btn btn-primary show-details">
-                    Detayları Gör
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div id="sogukspecialler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Soğuk Specialler</h1>
+        <!-- Soğuk Specialler menüsü içeriği buraya gelecek -->
+      </div>
+
+      <div id="espresso" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Espresso</h1>
+        <!-- Espresso menüsü içeriği buraya gelecek -->
+      </div>
+      <div id="sicaksutluicecekler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Sıcak Sütlü İçecekler</h1>
+        <!-- Sıcak Sütlü İçecekler menüsü içeriği buraya gelecek -->
+      </div>
+
+      <div id="sogukkahveler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Soğuk Kahveler</h1>
+        <!-- Soğuk Kahveler menüsü içeriği buraya gelecek -->
+      </div>
+
+      <div id="milkshake" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Milkshake</h1>
+        <!-- Milkshake menüsü içeriği buraya gelecek -->
+      </div>
+
+      <div id="soguksutluicecekler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Soğuk Sütlü İçecekler</h1>
+        <!-- Soğuk Sütlü İçecekler menüsü içeriği buraya gelecek -->
+      </div>
+
+      <div id="smoothie" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Smoothie</h1>
+        <!-- Smoothie menüsü içeriği buraya gelecek -->
+      </div>
 
 
+      <div id="frozen" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Frozen</h1>
+        <!-- Frozen menüsü içeriği buraya gelecek -->
+      </div>
 
-    
-  
 
-    <section id="turkkahveleri" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Türk Kahveleri</h1>
-      <!-- Türk Kahveleri menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="cayvebitkicaylari" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Çay ve Bitki Çayları</h1>
+        <!-- Çay ve Bitki Çayları menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="sogukkahveler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Soğuk Kahveler</h1>
-      <!-- Soğuk Kahveler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="sogukicecekler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Soğuk İçecekler</h1>
+        <!-- Soğuk İçecekler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="sogukicecekler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Soğuk İçecekler</h1>
-      <!-- Soğuk İçecekler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="tazesikmalar" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Taze Sıkmalar</h1>
+        <!-- Taze Sıkmalar menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="tazesikmalar" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Taze Sıkmalar</h1>
-      <!-- Taze Sıkmalar menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="tatlilar" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Tatlılar</h1>
+        <!-- Menemenler menüsü içeriği buraya gelecek -->
+      </div>
+ 
 
-    <section id="dunyakahveleri" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Dünya Kahveleri</h1>
-      <!-- Dünya Kahveleri menüsü içeriği buraya gelecek -->
-    </section>
 
-    <section id="espresso" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Espresso</h1>
-      <!-- Espresso menüsü içeriği buraya gelecek -->
-    </section>
+      <!--kahvaltı-->
+      <div id="kahvalti" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Kahvaltılar</h1>
+        <!-- Menemenler menüsü içeriği buraya gelecek -->
+      </div>
+      <!--kahvaltı-->
+      
+      <div id="menemenler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Menemenler</h1>
+        <!-- Menemenler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="sogukspecialler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Soğuk Specialler</h1>
-      <!-- Soğuk Specialler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="yumurtaomletler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Yumurta Omletler</h1>
+        <!-- Yumurta Omletler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="sicaksutluicecekler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Sıcak Sütlü İçecekler</h1>
-      <!-- Sıcak Sütlü İçecekler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="gozlemeler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Gözlemeler</h1>
+        <!-- Gözlemeler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="soguksutluicecekler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Soğuk Sütlü İçecekler</h1>
-      <!-- Soğuk Sütlü İçecekler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="borekler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Börekler</h1>
+        <!-- Börekler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="milkshake" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Milkshake</h1>
-      <!-- Milkshake menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="tostcesitleri" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Tost Çeşitleri</h1>
+        <!-- Tost Çeşitleri menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="smoothie" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Smoothie</h1>
-      <!-- Smoothie menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="burgerler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Burgerler</h1>
+        <!-- Burgerler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="frozen" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Frozen</h1>
-      <!-- Frozen menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="marinelitavuklar" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Marineli Tavuklar</h1>
+        <!-- Marineli Tavuklar menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="cayvebitkicaylari" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Çay ve Bitki Çayları</h1>
-      <!-- Çay ve Bitki Çayları menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="kofteler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Köfteler</h1>
+        <!-- Köfteler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="menemenler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Menemenler</h1>
-      <!-- Menemenler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="makarnalar" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Makarnalar</h1>
+        <!-- Makarnalar menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="yumurtaomletler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Yumurta Omletler</h1>
-      <!-- Yumurta Omletler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="salatalar" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Salatalar</h1>
+        <!-- Salatalar menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="gozlemeler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Gözlemeler</h1>
-      <!-- Gözlemeler menüsü içeriği buraya gelecek -->
-    </section>
+      <div id="aperatifler" class="menu-div">
+        <h1 class="text-center wittgenstein mt-5 header-container">Aperatifler</h1>
+        <!-- Aperatifler menüsü içeriği buraya gelecek -->
+      </div>
 
-    <section id="borekler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Börekler</h1>
-      <!-- Börekler menüsü içeriği buraya gelecek -->
-    </section>
+      <a href="#top" id="scroll-to-top-btn">
+        <span>↑</span>
+      </a>
+      <!-- scripts start -->
+      <div class="scripts">
+        <!-- scripts -->
 
-    <section id="tostcesitleri" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Tost Çeşitleri</h1>
-      <!-- Tost Çeşitleri menüsü içeriği buraya gelecek -->
-    </section>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+          integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+          integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+          crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+      </div>
+      <!-- scripts end -->
+</body>
 
-    <section id="burgerler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Burgerler</h1>
-      <!-- Burgerler menüsü içeriği buraya gelecek -->
-    </section>
-
-    <section id="marinelitavuklar" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Marineli Tavuklar</h1>
-      <!-- Marineli Tavuklar menüsü içeriği buraya gelecek -->
-    </section>
-
-    <section id="kofteler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Köfteler</h1>
-      <!-- Köfteler menüsü içeriği buraya gelecek -->
-    </section>
-
-    <section id="makarnaar" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Makarnalar</h1>
-      <!-- Makarnalar menüsü içeriği buraya gelecek -->
-    </section>
-
-    <section id="salatalar" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Salatalar</h1>
-      <!-- Salatalar menüsü içeriği buraya gelecek -->
-    </section>
-
-    <section id="aperatifler" class="menu-section">
-      <h1 class="text-center wittgenstein mt-5">Aperatifler</h1>
-      <!-- Aperatifler menüsü içeriği buraya gelecek -->
-    </section>
-
-    <a href="#top" id="scroll-to-top-btn">
-      <span>↑</span>
-    </a>
-    <!-- scripts start -->
-    <div class="scripts">
-      <!-- scripts -->
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-        crossorigin="anonymous"
-      ></script>
-      <script src="script.js"></script>
-    </div>
-    <!-- scripts end -->
-  </body>
 </html>
