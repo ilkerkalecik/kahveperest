@@ -7,7 +7,7 @@
 }
 body {
   overflow-x: hidden;
-  padding-top: 14vh;
+  padding-top: 10rem;
   scroll-behavior: smooth;
 }
 .logonav {
@@ -51,7 +51,7 @@ body {
 }
 
 .bosluk {
-  margin-top: 43px;
+  margin-top:180px !important  ;
 }
 
 :root {
