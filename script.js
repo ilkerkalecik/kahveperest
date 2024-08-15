@@ -10,6 +10,20 @@ document.querySelectorAll(".show-details").forEach((button) => {
     }
   });
 });
+
+
+document.querySelectorAll(".show-detailscard").forEach((button) => {
+  button.addEventListener("click", function () {
+    var details = this.previousElementSibling;
+    if (details.style.display === "none" || details.style.display === "") {
+      details.style.display = "block";
+      this.textContent = "Detayları Gizle";
+    } else {
+      details.style.display = "none";
+      this.textContent = "Çeşitlerimiz ve Detaylar";
+    }
+  });
+});
 document.addEventListener("DOMContentLoaded"),
   () => {
     const categoryItems = document.querySelectorAll(".category-item");

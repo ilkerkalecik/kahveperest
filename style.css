@@ -251,3 +251,69 @@ a {
   background-color: #000000; 
   margin: 0 10px; /* Çizgi ile başlık arasındaki boşluk */
 }
+
+.category-itemcard {
+  background-color: #320000;
+  color: #ffffff;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  flex-shrink: 0;
+  transition: background-color 0.3s;
+}
+.product-card .card-titlecard {
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+  font-weight: 800;
+  
+}
+
+.ilave {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ilave h3 {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #004f20;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.ilave ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ilave li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.ilave li:last-child {
+  border-bottom: none;
+}
+
+.item-name {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.item-fiyat {
+  font-size: 1.1rem;
+  color: #014f0e;
+  font-weight: bold;
+}
