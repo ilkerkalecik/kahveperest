@@ -1,15 +1,10 @@
-:root {
-  --color-1: #03081e;
-  --color-2: #00026c;
-  --color-3: #160642;
-  --color-4: #300556;
-  --color-5: #ffffff9d;
-}
 body {
   overflow-x: hidden;
   padding-top: 10rem;
   scroll-behavior: smooth;
+  background-color: #ffffff;
 }
+
 .logonav {
   border-radius: 100%;
 }
@@ -22,89 +17,17 @@ body {
   );
 }
 
-.dropdown-item {
-  background: linear-gradient(
-    90deg,
-    var(--color-1) 0%,
-    var(--color-2) 33%,
-    var(--color-3) 66%,
-    var(--color-4) 100%
-  );
-}
-.first-item {
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
-.last-item {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
 .row {
   margin-bottom: 1rem;
 }
 .h5 {
   margin: 1rem;
 }
-.ratio-16x9 {
-  aspect-ratio: 16/9;
-}
 
 .bosluk {
-  margin-top:180px !important  ;
+  margin-top: 180px !important  ;
 }
 
-:root {
-  --color-1: #0e3a0a;
-  --color-2: #ffffff;
-  --color-3: #360a3a;
-  --color-4: #0a3a1e;
-  --color-5: #0a0e3a;
-  --color-6: #3a0a0e;
-  --color-7: #3a1e0a;
-  --color-8: #dddedd;
-  --color-9: #000000d7;
-}
-body {
-  background-color: #ffffff;
-  overflow-x: hidden;
-}
-
-.roboto-mono {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.arvo-regular {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.arvo-bold {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.arvo-regular-italic {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.arvo-bold-italic {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-.populer {
-  width: 95vw;
-  height: 160px;
-  background-color: #eaeaea;
-  border: 10px black;
-}
 .product-card {
   border: none;
   border-radius: 10px;
@@ -193,7 +116,7 @@ button:focus,
 }
 
 .categories-wrapper::-webkit-scrollbar {
-  display: none; /* Webkit tarayıcıları için kaydırma çubuğunu gizler */
+  display: none;
 }
 #top {
   display: hidden;
@@ -248,8 +171,8 @@ a {
   content: "";
   flex: 1;
   height: 1px;
-  background-color: #000000; 
-  margin: 0 10px; /* Çizgi ile başlık arasındaki boşluk */
+  background-color: #000000;
+  margin: 0 10px;
 }
 
 .category-itemcard {
@@ -267,7 +190,6 @@ a {
   font-size: 1rem;
   margin-bottom: 0.1rem;
   font-weight: 800;
-  
 }
 
 .ilave {
